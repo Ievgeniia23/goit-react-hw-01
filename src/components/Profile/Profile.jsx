@@ -15,7 +15,7 @@ const Profile = (props) => {
         alt={props.name}
         />
                 
-        <p className={css.name}>{props.name}</p>
+        <p className={css.textName}>{props.name}</p>
         <p className={css.tag}>@{props.tag}</p>
         <p className={css.location}>{props.location}</p>
     </div>
